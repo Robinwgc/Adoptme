@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎮 Adopt Me API</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 50px 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            max-width: 600px;
+        }
+        h1 { font-size: 3em; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        p { font-size: 1.2em; margin-bottom: 30px; opacity: 0.9; }
+        .btn { 
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(0,0,0,0.3); }
+        .btn-pets { background: linear-gradient(45deg, #43e97b, #38f9d7); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 ¡Bienvenido a Adopt Me!</h1>
+        <p>Tu API completa de mascotas estilo <strong>Pet Simulator</strong> está LIVE ✅</p>
+        <div>
+            <a href="/users" class="btn">👥 Ver Usuarios Registrados</a>
+            <a href="/pets" class="btn btn-pets">🐶 Ver Todas las Mascotas</a>
+        </div>
+        <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+            Powered by Node.js + MongoDB Atlas + Render 🚀
+        </p>
+    </div>
+</body>
+</html>
